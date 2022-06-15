@@ -1,0 +1,94 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 0px 1px black; 
+}
+
+img {
+    width: 200px;
+}
+
+#header {
+    background-image: url('https://images.unsplash.com/photo-1518887668165-8fa91a9178be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 300px 200px;
+    margin-bottom: 0px;
+}
+
+.visit {
+    background: #1D3557;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px 0 100px 0;
+    font-family:'Times New Roman', Times, serif
+}
+
+#why-visit {
+    background: #457B9D;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif
+}
+
+#activities {
+    background: #F1FAEE;
+    margin-top: -20px;
+}
+
+#top-activities {
+    margin-bottom: 50px;
+    padding-top: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: #1D3557
+}
+
+.activity-img {
+    margin: 0px 40px 10px 40px;
+    border-radius: 10%;
+    width: 300px;
+    height: 200px;
+}
+
+.img-flexbox {
+    display: flex;
+    justify-content: center;
+}
+
+.img-title {
+    color: #1D3557;
+    font-weight: bold;
+}
+
+.img-info {
+    margin: 5px 30px 50px 30px;
+    color: #1D3557;
+    font-weight: normal;
+}
+
+#guide {
+    width: 600px;
+    margin: 100px auto;
+    display: flex;
+    text-align: center;
+    border-bottom: 5px solid #003049;
+    border-radius: 10px;
+    background: #A8DADC;
+    color: #1D3557;
+}
+
